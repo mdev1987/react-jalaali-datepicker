@@ -1,0 +1,78 @@
+.datepicker {
+    padding: 20px;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.month {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-month {
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.1ms linear;
+}
+
+.btn-month:hover {
+    background: burlywood;
+}
+
+.btn-month:disabled {
+    background: transparent;
+}
+
+.weekday {
+    margin-top: 20px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    height: 170px;    
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.selected-date {
+    margin-top: 10px;    
+}
+
+.btn-day {
+    outline: none;
+    background: transparent;
+    width: 100%;
+    box-shadow: none;
+    border: 0.1px solid rgb(216, 214, 214);
+    border-radius: 3px;
+    transition: 0.1ms linear;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.btn-day:hover {
+    background: burlywood;
+}
+
+.btn-day.active {
+    background: orange;
+}
