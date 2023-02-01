@@ -1,1 +1,3 @@
-## React Shamsi DatePicker
+## React Jalaali DatePicker
+
+![sceenshot](./screenshot.jpg)

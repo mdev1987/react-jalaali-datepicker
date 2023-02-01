@@ -1,12 +1,12 @@
 import './App.css';
 import DatePicker from './components/DatePicker';
-import ShamsiDatePicker from './components/ShamsiDatePicker';
+import JalaaliDatePicker from './components/JalaaliDatePicker';
 
 function App() {
   return (
     <div className="App">
       <DatePicker />
-      <ShamsiDatePicker />
+      <JalaaliDatePicker />
     </div>
   );
 }

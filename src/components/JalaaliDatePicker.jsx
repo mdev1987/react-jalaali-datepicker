@@ -5,7 +5,7 @@ import jalaali from 'jalaali-js'
 import { getJalaaliMonthDays, toPersianDigits } from '../utils'
 
 const jDate = jalaali.toJalaali(new Date());
-function ShamsiDatePicker() {
+function JalaaliDatePicker() {
     const [selectedDate, setSelectedDate] = useState(jDate);
     const [selectedYear, setSelectedYear] = useState(jDate.jy)
     const [selectedMonth, setSelectedMonth] = useState(jDate.jm)
@@ -82,4 +82,4 @@ function ShamsiDatePicker() {
 
 
 
-export default ShamsiDatePicker
+export default JalaaliDatePicker

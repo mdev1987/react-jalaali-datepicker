@@ -1,8 +1,6 @@
 import jalaali from 'jalaali-js'
 import { SHAMSI_WEEKDAY_SORT, WEEKDAY } from "../consts";
 
-console.log(jalaali.jalaaliWeek(1400, 4, 3))
-
 export function getNumberDaysOfMonth(year, month) {
     return new Date(year, month + 1, 0).getDate();
 }
